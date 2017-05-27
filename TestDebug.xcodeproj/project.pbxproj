@@ -15,6 +15,7 @@
 		00D99C091ED92F3700D5BED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D99C071ED92F3700D5BED4 /* LaunchScreen.storyboard */; };
 		00D99C141ED92F3700D5BED4 /* TestDebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D99C131ED92F3700D5BED4 /* TestDebugTests.m */; };
 		00D99C1F1ED92F3700D5BED4 /* TestDebugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D99C1E1ED92F3700D5BED4 /* TestDebugUITests.m */; };
+		00D99C2E1ED92F4A00D5BED4 /* UIViewController+Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D99C2D1ED92F4A00D5BED4 /* UIViewController+Debugging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		00D99C1A1ED92F3700D5BED4 /* TestDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D99C1E1ED92F3700D5BED4 /* TestDebugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDebugUITests.m; sourceTree = "<group>"; };
 		00D99C201ED92F3700D5BED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D99C2C1ED92F4A00D5BED4 /* UIViewController+Debugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Debugging.h"; sourceTree = "<group>"; };
+		00D99C2D1ED92F4A00D5BED4 /* UIViewController+Debugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Debugging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				00D99BFF1ED92F3700D5BED4 /* ViewController.h */,
 				00D99C001ED92F3700D5BED4 /* ViewController.m */,
 				00D99C021ED92F3700D5BED4 /* Main.storyboard */,
+				00D99C2C1ED92F4A00D5BED4 /* UIViewController+Debugging.h */,
+				00D99C2D1ED92F4A00D5BED4 /* UIViewController+Debugging.m */,
 				00D99C051ED92F3700D5BED4 /* Assets.xcassets */,
 				00D99C071ED92F3700D5BED4 /* LaunchScreen.storyboard */,
 				00D99C0A1ED92F3700D5BED4 /* Info.plist */,
@@ -279,6 +284,7 @@
 				00D99C011ED92F3700D5BED4 /* ViewController.m in Sources */,
 				00D99BFE1ED92F3700D5BED4 /* AppDelegate.m in Sources */,
 				00D99BFB1ED92F3700D5BED4 /* main.m in Sources */,
+				00D99C2E1ED92F4A00D5BED4 /* UIViewController+Debugging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
